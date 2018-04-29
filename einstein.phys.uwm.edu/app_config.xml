@@ -1,0 +1,19 @@
+<!-- This is for 16-core system, adjust to your machine accordingly -->
+<app_config>
+  <app>
+    <name>hsgamma_FGRPB1G</name>
+    <max_concurrent>4</max_concurrent>
+    <gpu_versions>
+      <gpu_usage>0.5</gpu_usage>
+      <cpu_usage>0.25</cpu_usage>
+    </gpu_versions>
+  </app>
+  <app>
+    <name>hsgamma_FGRP5</name>
+    <max_concurrent>12</max_concurrent>
+  </app>
+  <app>
+    <name>einstein_O2AS20-500</name>
+    <max_concurrent>12</max_concurrent>
+  </app>
+</app_config>
